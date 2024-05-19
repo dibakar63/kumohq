@@ -1,3 +1,7 @@
+
+
+
+
 .App {
   text-align: center;
 }
@@ -6,13 +10,44 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+.signup{
+  border: 1px solid black;
+}
+.card{
+  transition:transform .2s;
+}
+.hover{
+  width: 43%;
+}
+.high{
+  transform: scale(1.07);
+}
+.hover:hover{
+  background: yellow;
+  transition: transform .2s;
+}
+.hover2:hover{
+  background: rgb(241, 237, 237);
+  border-radius: 12px;
+}
+.card:hover{
+  
+  transform:scale(1.01) ;
+}
+.signup:hover{
+  border-bottom:5px solid black ;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  
+  
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+.navbar{
+  font-size: 18px;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
